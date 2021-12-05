@@ -38,3 +38,6 @@ pages ディレクトリと同様に、public 内のファイルはアプリケ�
 デフォルトで、Next.js はすべてのページをプリレンダリングする
 つまり、Next.js は、クライアント側の JavaScript ですべてのレンダリングを行うのではなく、あらかじめ各ページの HTML を生成しておくということ = SSR
 プレーンな React でアプリを作った場合、プリレンダリングは行われない。したがって、JavaScript を無効にするとアプリは表示されなくなってしまう
+
+![image](https://user-images.githubusercontent.com/66477859/144738184-a1e0b674-2759-4e38-8c15-cc1b0ae2b63b.png)
+
