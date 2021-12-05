@@ -48,3 +48,12 @@ pages ディレクトリと同様に、public 内のファイルはアプリケ�
 
 - サーバサイドレンダリング（SSR）
   毎回のリクエストごとに HTML を生成するプリレンダリング手法
+
+  開発モード（npm run dev あるいは yarn dev を実行したとき）では、静的生成を使用しているページであっても、すべてのページが毎回のリクエストごとにプリレンダリングされる
+
+![image](https://user-images.githubusercontent.com/66477859/144738184-a1e0b674-2759-4e38-8c15-cc1b0ae2b63b.png)
+
+![image](https://user-images.githubusercontent.com/66477859/144738289-f20027b6-d0b4-4b9b-ad6f-19e8023dca87.png)
+
+Next.js ではページごとにどちらのプリレンダリング形式を使用するか **選択** できる  
+ -ほとんどのページにおいて静的生成（Static Generation）を使用しつつ、残る一部のページはサーバサイドレンダリングを使用するというような「ハイブリッド」な Next.js アプリを作ることが可能となる
