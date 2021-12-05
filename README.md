@@ -41,3 +41,10 @@ pages ディレクトリと同様に、public 内のファイルはアプリケ�
 
 ![image](https://user-images.githubusercontent.com/66477859/144738184-a1e0b674-2759-4e38-8c15-cc1b0ae2b63b.png)
 
+### Next.js におけるプリレンダリングの 2 つの形式
+
+- 静的生成（Static Generation）
+  ビルド時 に HTML を生成するプリレンダリング手法です。プリレンダリングされた HTML は各リクエストに対して 再利用 される
+
+- サーバサイドレンダリング（SSR）
+  毎回のリクエストごとに HTML を生成するプリレンダリング手法
